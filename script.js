@@ -50,7 +50,7 @@ const data = {
         result: "This project significantly enhanced my proficiency in TypeScript, React, and Redux. By structuring types effectively, I improved my ability to write cleaner, more efficient, and maintainable code. Additionally, I refined my state management skills and gained a deeper understanding of event handling in React. Working without UI libraries strengthened my CSS expertise, allowing me to style components from scratch with greater confidence. Overall, this experience provided valuable insights into scalable frontend development, equipping me to tackle more complex projects."
     },
     case02: {
-        title: "Responsive Layout V0",
+        title: "Responsive Layout",
         tech: "Frontend",
         preview_image: "assets/LoginIcon.png",
         link: ["https://randomwinter89.github.io/SigmaSchool_Fundamental_Frontend/"],
@@ -72,7 +72,7 @@ const data = {
         result: "Through this process, I learned that manually adjusting styles for different screen sizes is inefficient and unsustainable. Instead, leveraging media queries provided a structured and scalable approach to responsiveness. By implementing these techniques, I was able to create a layout that adapts smoothly to various screen sizes, improving both usability and accessibility. This experience reinforced the importance of flexible design principles in front-end development."
     },
     case03: {
-        title: "DOM Manipulation V0",
+        title: "DOM Manipulation",
         tech: "Frontend",
         preview_image: "assets/BSIcon.png",
         link: ["https://randomwinter89.github.io/SigmaSchool_Fundamental_Frontend/"],
