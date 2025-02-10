@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <link href="style.css" rel="stylesheet">
+
+    <title>Portfolio Structure</title>
+</head>
+
+<body dark-theme="white">
+    <!-- DONE XX  -->
+    <nav>
+        <h1>David Tang</h1>
+        <div class="navigation__mode">
+            <button onclick="ToggleTheme()">D</button>
+        </div>
+    </nav>
+
+    <div class="main-content">
+        <!-- SUB CONTAINER -->
+        <div class="main-content__sub-container" onclick="moveLeft()">
+            <!-- CONTAINER THAT HAS OVERFLOW -->
+            <div class="sub__container">
+                <!-- TITLE -->
+                <div class="sub-container__title">
+                    <!-- PROFILE PICTURE -->
+                    <img src="assets/ProfilePicture.jpg" class="title__profile-picture"> </img>
+
+                    <!-- PERSONAL NAME & ROLE -->
+                    <div class="title__personal-name">
+                        <h1>TANG WEN JING</h1>
+                        <h3>Fresh Frontend Developer</h3>
+                    </div>
+                </div>
+
+                <!-- SKILL LIST -->
+                <div class="sub-container__skill-list">
+                    <div class="skill__container skill__description">
+                        <p>Frontend developer eager to tackle challenges and build functional, user-focused interfaces.</p>
+                        <p>FROM MALAYSIA, KL.</p>
+                    </div>
+
+                    <div class="skill__container skill__list">
+                        <h2>Skills</h2>
+                        <div class="skill-content tags">
+                            <span class="tag-box">HTML5</span>
+                            <span class="tag-box">CSS5</span>
+                            <span class="tag-box">JS</span>
+                            <span class="tag-box">TS</span>
+                            <span class="tag-box">React.JS</span>
+                            <span class="tag-box">Bootstrap</span>
+                            <span class="tag-box">Tailwind</span>
+                            <span class="tag-box">Figma</span>
+                            <span class="tag-box">After Effect</span>
+                        </div>
+                    </div>
+
+                    <div class="skill__container skill__experience">
+                        <h2>Experiences</h2>
+                        <div class="skill-content">
+                            <div class="experience__content">
+                                <!-- CREATE DOT LINE -->
+                                <div class="experience__content-left">
+                                    <div class="timeline__start">
+                                        <span class="timeline__dot"></span>
+                                    </div>
+                                    <div class="timeline__line"></div>
+                                </div>
+
+                                <div class="experience__content-right">
+                                    <h3>2024</h3>
+                                    <p>WORK IN GIGABASH (6 month) as Junior Programmer using Unreal and Unity to develop</p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <!-- CREATE DOT LINE -->
+                                <div class="experience__content-left">
+                                    <div class="timeline__start">
+                                        <span class="timeline__dot"></span>
+                                    </div>
+                                    <div class="timeline__line"></div>
+                                </div>
+
+                                <div class="experience__content-right">
+                                    <h3>2020 ~ 2023</h3>
+                                    <p>Studied in UOW (4 years) under Bachelor of Game Development</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- SOCIAL LINK -->
+                <!-- <div class="sub-container__social-link">
+                    <h3>Social: </h3>
+                    <div class="social-link__container">
+                        <button>L</button>
+                        <button>G</button>
+                        <button>R</button>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+
+        <!-- MAIN CONTAINER -->
+        <div class="main-content__primary-container">
+            <!-- tab - swap mode -->
+            <div class="primary-container__tabs">
+                <button id="buttonPortfolio" onclick="Display_Porfolio()" class="active-tab">Portfolio</button>
+                <!-- <button>About Me</button> -->
+                <button id="buttonContact" onclick="Display_Contact()" class="unactive-tab">Contact</button>
+            </div>
+
+            <!-- primary container -->
+            <div class="primary-container__display">
+                <!-- SHOW THE TITLE -->
+                <div class="display__title">
+                    <h1 id="display__title-tagline">MY PROJECT</h1>
+                    <p id="display__description">Here's the my project, you can scroll to view more of my project list</p>
+                    <div id="display__tag" class="display__skill hide"></div>
+                    <button onclick=return_PortfolioList() id="display__title-button" class="hide">>> Return >></button>
+                </div>
+
+                <!-- DISPLAY CONTAINER - HOLD THE FILE -->
+                <div class="display__container">
+                    <!-- PORTFOLIO -->
+                    <div class="display__portfolio-container" id="display__portfolio">
+                        <!-- FIXED ARTICLE NOT EXPAND, CAN GO SMALLER -->
+                        
+                    </div>
+
+                    <!-- CASE STUDY 01 BOOTCAMP BASIC -->
+                    <div class="display_portfolio-case hide" id="CaseStudy">
+                    </div>
+
+                    <!-- CONTACT NUMBER -->
+                    <div class="display__contact-container hide">
+                        <!-- Send Email -->
+                        <a href="mailto:davidtang894@gmail.com"></a>
+                        <!-- Visit Linkedin -->
+                        <a href="https://www.linkedin.com/in/tang-wen-jing-b26b3720a/" target="_blank"></a>
+                        <!-- Visit Github -->
+                        <a href="https://github.com/RandomWinter89" target="_blank"></a>
+                        <!-- Download Resume -->
+                        <a href="" download></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
