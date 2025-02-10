@@ -52,7 +52,7 @@ const data = {
     case02: {
         title: "Responsive Layout V0",
         tech: "Frontend",
-        preview_image: "assets/LoginIcon.PNG",
+        preview_image: "assets/LoginIcon.png",
         link: [""],
         skills: ["HTML5", "JavaScript", "CSS3"],
         tags: ["HTML5", "JavaScript", "CSS3"],
@@ -74,7 +74,7 @@ const data = {
     case03: {
         title: "DOM Manipulation V0",
         tech: "Frontend",
-        preview_image: "assets/BSIcon.PNG",
+        preview_image: "assets/BSIcon.png",
         link: [""],
         skills: ["HTML5", "JavaScript", "CSS3"],
         tags: ["HTML5", "JavaScript", "CSS3"],
