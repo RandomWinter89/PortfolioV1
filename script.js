@@ -50,6 +50,28 @@ const data = {
         result: "This project significantly enhanced my proficiency in TypeScript, React, and Redux. By structuring types effectively, I improved my ability to write cleaner, more efficient, and maintainable code. Additionally, I refined my state management skills and gained a deeper understanding of event handling in React. Working without UI libraries strengthened my CSS expertise, allowing me to style components from scratch with greater confidence. Overall, this experience provided valuable insights into scalable frontend development, equipping me to tackle more complex projects."
     },
     case02: {
+        title: "Minimum Kanban",
+        tech: "Frontend",
+        preview_image: "assets/KanbanMinimalist01.PNG",
+        link: ["https://randomwinter89.github.io/Minimalist_Kanban/"],
+        skills: ["React", "JavaScript", "Tailwindcss"],
+        tags: ["React", "React Router Dom", "LocalStorage", "JavaScript", "Tailwindcss"],
+        preview_description: "Mini-project 03, understand 3 basis hook and how kanban was implemented",
+        description: "Moving toward React, I begun learning the 3 hook used upon industry and standard web dev. Applied this concept into kanban by outside resources.",
+        role: "Solo Frontend Developer",
+        duration: "1 ~ 2 Days",
+        content: [
+            {
+                header: "Destructure the component and integrate cards into columns",
+                process: "I explored how others implemented card integration and learned about structuring components efficiently. In React, I discovered three essential hooks that helped achieve a proper and dynamic web layout.",
+                solution: "I applied these hooks to manage state and reactivity effectively. Additionally, I refactored a large, monolithic script into smaller, readable files, improving maintainability and reusability.",
+                image: "assets/KanbanMinimalist02.PNG"
+            }
+        ],
+        result: "By using React hooks and breaking down components, I created a cleaner, more modular structure. This approach not only improved the website’s performance and scalability but also provided a strong foundation for further enhancements."
+    
+    },
+    case03: {
         title: "Responsive Layout",
         tech: "Frontend",
         preview_image: "assets/LoginIcon.png",
@@ -71,7 +93,7 @@ const data = {
         ],
         result: "Through this process, I learned that manually adjusting styles for different screen sizes is inefficient and unsustainable. Instead, leveraging media queries provided a structured and scalable approach to responsiveness. By implementing these techniques, I was able to create a layout that adapts smoothly to various screen sizes, improving both usability and accessibility. This experience reinforced the importance of flexible design principles in front-end development."
     },
-    case03: {
+    case04: {
         title: "DOM Manipulation",
         tech: "Frontend",
         preview_image: "assets/BSIcon.png",
