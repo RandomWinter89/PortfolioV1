@@ -1,5 +1,34 @@
 const data = {
     case01: {
+        title: "Galeries Website",
+        tech: "Frontend",
+        preview_image: "assets/Icon.png",
+        link: ["https://randomwinter89.github.io/GalerieWebsite/"],
+        skills: ["HTML5", "React", "Tailwind"],
+        tags: ["HTML5", "React", "Tailwind"],
+        preview_description: "From design into a website",
+        description: "I choice a web design from figma and convert into a website. Where I learn structure the user flow and use tailwind css to replicate for efficient flow. What I encounter while code the visual design",
+        role: "Solo Frontend Developer",
+        duration: "1 weeks",
+        content: [
+            {
+                header: "Convert design into a website",
+                problem: "The main problem is process the design intention and journey flow. As certain component does not have interaction provide, we must pinpoint logical direction for improvement and flexible with their design. Especially component share similar design",
+                process: "To easier analyze and code their design from figma, we destructure the frame in smaller component that is repetitive or similar visual. Through that process, we reduce the time of redundant code on same component and easier on update at once",
+                solution: "Instead of separate file for CSS, I import tailwind plugin to code quicker and easier tracking. Since I can code the element design and put them under component file, I don't have to worry of searching them. Another benefit was responsive design can applied straightaway on the element instead of manually code each class name which could be hazard as the development progress (Larger can harder track the CSS code).",
+                image: "assets/P1.PNG"
+            },
+            {
+                header: "Routing a Website flow",
+                problem: "The second problem is figuring out the website pages and the possible connection with one another. As we would also faced another challenge, where singular page can provide different information with same layout.",
+                process: "I begin analyze and list-down the website page to pinpoint the route, with the design of what and where a button would lead me toward. Then start coding the design and use reusable component to safe time",
+                solution: "React router has a feature, that I can solve the same visual with different info. Through provide an ID at the router path when user interact different artist. The useLocation from router feature can extract the ID and to get the information we want from the database. Solving us the problem without need react context to record the id",
+                image: "assets/P2.PNG"
+            },
+        ],
+        result: "The journey of convert a figma design into a code-based website was a great experience for me. As I gain the skill of destructure the website and pinpoint which component is reusable or whether the a page layout can share different information. On the other hand, I improve tailwind skill further to cooperate with reusable component and get more used with it. Generally, I learned a tons of new skill and further improve fundamental skills"
+    },
+    case02: {
         title: "Custom Recipe Blog",
         tech: "Frontend",
         preview_image: "assets/RecipeBlog_Preview.png",
@@ -49,7 +78,7 @@ const data = {
         ],
         result: "This project significantly enhanced my proficiency in TypeScript, React, and Redux. By structuring types effectively, I improved my ability to write cleaner, more efficient, and maintainable code. Additionally, I refined my state management skills and gained a deeper understanding of event handling in React. Working without UI libraries strengthened my CSS expertise, allowing me to style components from scratch with greater confidence. Overall, this experience provided valuable insights into scalable frontend development, equipping me to tackle more complex projects."
     },
-    case02: {
+    case03: {
         title: "Minimum Kanban",
         tech: "Frontend",
         preview_image: "assets/KanbanMinimalist01.PNG",
@@ -71,7 +100,7 @@ const data = {
         result: "By using React hooks and breaking down components, I created a cleaner, more modular structure. This approach not only improved the website’s performance and scalability but also provided a strong foundation for further enhancements."
     
     },
-    case03: {
+    case04: {
         title: "Responsive Layout",
         tech: "Frontend",
         preview_image: "assets/LoginIcon.png",
@@ -93,7 +122,7 @@ const data = {
         ],
         result: "Through this process, I learned that manually adjusting styles for different screen sizes is inefficient and unsustainable. Instead, leveraging media queries provided a structured and scalable approach to responsiveness. By implementing these techniques, I was able to create a layout that adapts smoothly to various screen sizes, improving both usability and accessibility. This experience reinforced the importance of flexible design principles in front-end development."
     },
-    case04: {
+    case05: {
         title: "DOM Manipulation",
         tech: "Frontend",
         preview_image: "assets/BSIcon.png",
